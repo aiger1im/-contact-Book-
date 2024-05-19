@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #ddc7c7;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btncontact{
+    width: 400px;
+    height: 500px;
+    padding: 32px;
+    border-radius: 50px;
+    box-shadow: 0 4px 16px #a38888;
+
+   
+}
+.inp{
+    border-radius: 15px;
+}
+.inp2{
+    border-radius: 15px;
+}
+.inp3{
+    border-radius: 15px;
+}
+.inp4{
+    border-radius: 15px;
+}
+.span{
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-weight: normal;
+}
+.btnadd{
+    background-color: #d1a9a9;
+    color: white;
+    border-radius: 5pc;
+    padding: 6px;
+    width: 150px;
+    transition: transform .5s;
+    outline: 1px solid transparent;
+    outline-offset: 5px;
+}
+.btnadd:hover{
+    transform: scale(1.03);
+}
+.btnadd:active{
+    transform: scale(0.60);
+}
+.btnadd:focus{
+    outline-color: #d1a9a9;
+}
+
+.btneditSave{
+    background-color: #d1a9a9;
+    color: white;
+    border-radius: 5pc;
+    padding: 6px;
+    width: 50px;
+    transition: transform .5s;
+    outline: 1px solid transparent;
+    outline-offset: 5px;
+}
+
+.btneditSave:hover{
+    transform: scale(1.05);
+}
+.btneditSave:active{
+    transform: scale(0.60);
+}
+.btneditSave:focus{
+    outline-color: #d1a9a9;
+}
+
+.btnDElete{
+    background-color: #d1a9a9;
+    color: white;
+    border-radius: 5pc;
+    padding: 6px;
+    width: 60px;
+    transition: transform .5s;
+    outline: 1px solid transparent;
+    outline-offset: 5px;
+}
+
+.btnEdit{
+    background-color: #d1a9a9;
+    color: white;
+    border-radius: 5pc;
+    padding: 6px;
+    width: 60px;
+    transition: transform .5s;
+    outline: 1px solid transparent;
+    outline-offset: 5px;
+}
